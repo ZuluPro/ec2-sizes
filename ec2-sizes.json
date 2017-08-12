@@ -1,0 +1,623 @@
+{
+  "t1.micro": {
+    "id": "t1.micro",
+    "name": "Micro Instance",
+    "ram": 0,
+    "disk": 15,
+    "bandwidth": null
+  },
+  "m1.small": {
+    "id": "m1.small",
+    "name": "Small Instance",
+    "ram": 1024,
+    "disk": 160,
+    "bandwidth": null
+  },
+  "m1.medium": {
+    "id": "m1.medium",
+    "name": "Medium Instance",
+    "ram": 3072,
+    "disk": 410,
+    "bandwidth": null
+  },
+  "m1.large": {
+    "id": "m1.large",
+    "name": "Large Instance",
+    "ram": 7168,
+    "disk":  2,
+    "disk_size": 420,
+    "bandwidth": null,
+    "cpu": 2
+  },
+  "m1.xlarge": {
+    "id": "m1.xlarge",
+    "name": "Extra Large Instance",
+    "ram": 15360,
+    "disk":  4,
+    "disk_size": 420,
+    "bandwidth": null,
+    "cpu": 4
+  },
+  "c1.medium": {
+    "id": "c1.medium",
+    "name": "High-CPU Medium Instance",
+    "ram": 1024,
+    "disk": 350,
+    "bandwidth": null,
+    "cpu": 2
+  },
+  "c1.xlarge": {
+    "id": "c1.xlarge",
+    "name": "High-CPU Extra Large Instance",
+    "ram": 7168,
+    "disk":  4,
+    "disk_size": 420,
+    "bandwidth": null,
+    "cpu": 8
+  },
+  "m2.xlarge": {
+    "id": "m2.xlarge",
+    "name": "High-Memory Extra Large Instance",
+    "ram": 17408,
+    "disk": 420,
+    "bandwidth": null,
+    "cpu": 2
+  },
+  "m2.2xlarge": {
+    "id": "m2.2xlarge",
+    "name": "High-Memory Double Extra Large Instance",
+    "ram": 34816,
+    "disk": 850,
+    "bandwidth": null,
+    "cpu": 4
+  },
+  "m2.4xlarge": {
+    "id": "m2.4xlarge",
+    "name": "High-Memory Quadruple Extra Large Instance",
+    "ram": 69632,
+    "disk":  2,
+    "disk_size": 840,
+    "bandwidth": null,
+    "cpu": 8
+  },
+  "m3.medium": {
+    "id": "m3.medium",
+    "name": "Medium Instance",
+    "ram": 3072,
+    "disk": 4,
+    "bandwidth": null,
+    "cpu": 1
+  },
+  "m3.large": {
+    "id": "m3.large",
+    "name": "Large Instance",
+    "ram": 7168,
+    "disk": 32,
+    "bandwidth": null,
+    "cpu": 2
+  },
+  "m3.xlarge": {
+    "id": "m3.xlarge",
+    "name": "Extra Large Instance",
+    "ram": 15360,
+    "disk":  2,
+    "disk_size": 40,
+    "bandwidth": null,
+    "cpu": 4
+  },
+  "m3.2xlarge": {
+    "id": "m3.2xlarge",
+    "name": "Double Extra Large Instance",
+    "ram": 30720,
+    "disk":  2,
+    "disk_size": 80,
+    "bandwidth": null,
+    "cpu": 8
+  },
+  "m4.large": {
+    "id": "m4.large",
+    "name": "Large Instance",
+    "ram": 8192,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 2
+  },
+  "m4.xlarge": {
+    "id": "m4.xlarge",
+    "name": "Extra Large Instance",
+    "ram": 16384,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 4
+  },
+  "m4.2xlarge": {
+    "id": "m4.2xlarge",
+    "name": "Double Extra Large Instance",
+    "ram": 32768,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 8
+  },
+  "m4.4xlarge": {
+    "id": "m4.4xlarge",
+    "name": "Quadruple Extra Large Instance",
+    "ram": 65536,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 16
+  },
+  "m4.10xlarge": {
+    "id": "m4.10xlarge",
+    "name": "10 Extra Large Instance",
+    "ram": 163840,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 40
+  },
+  "m4.16xlarge": {
+    "id": "m4.16xlarge",
+    "name": "16 Extra Large Instance",
+    "ram": 262144,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 64
+  },
+  "cg1.4xlarge": {
+    "id": "cg1.4xlarge",
+    "name": "Cluster GPU Quadruple Extra Large Instance",
+    "ram": 22528,
+    "disk":  2,
+    "disk_size": 840,
+    "bandwidth": null,
+    "cpu": 16
+  },
+  "g2.2xlarge": {
+    "id": "g2.2xlarge",
+    "name": "Cluster GPU G2 Double Extra Large Instance",
+    "ram": 15360,
+    "disk": 60,
+    "bandwidth": null,
+    "cpu": 8
+  },
+  "g2.8xlarge": {
+    "id": "g2.8xlarge",
+    "name": "Cluster GPU G2 Eight Extra Large Instance",
+    "ram": 61440,
+    "disk":  2,
+    "disk_size": 120,
+    "bandwidth": null,
+    "cpu": 32
+  },
+  "p2.xlarge": {
+    "id": "p2.xlarge",
+    "name": "Cluster GPU P2 Large Instance",
+    "ram": 62464,
+    "disk": 4,
+    "bandwidth": null
+  },
+  "p2.8xlarge": {
+    "id": "p2.8xlarge",
+    "name": "Cluster GPU P2 Large Instance",
+    "ram": 499712,
+    "disk": 32,
+    "bandwidth": null
+  },
+  "p2.16xlarge": {
+    "id": "p2.16xlarge",
+    "name": "Cluster GPU P2 Large Instance",
+    "ram": 749568,
+    "disk": 64,
+    "bandwidth": null
+  },
+  "cc1.4xlarge": {
+    "id": "cc1.4xlarge",
+    "name": "Cluster Compute Quadruple Extra Large Instance",
+    "ram": 23552,
+    "disk": 1690,
+    "bandwidth": null
+  },
+  "cc2.8xlarge": {
+    "id": "cc2.8xlarge",
+    "name": "Cluster Compute Eight Extra Large Instance",
+    "ram": 61440,
+    "disk":  4,
+    "disk_size": 840,
+    "bandwidth": null,
+    "cpu": 32
+  },
+
+  "c3.large": {
+    "id": "c3.large",
+    "name": "Compute Optimized Large Instance",
+    "ram": 3072,
+    "disk":  2,
+    "disk_size": 16,
+    "bandwidth": null,
+    "cpu": 2
+  },
+  "c3.xlarge": {
+    "id": "c3.xlarge",
+    "name": "Compute Optimized Extra Large Instance",
+    "ram": 7168,
+    "disk":  2,
+    "disk_size": 40,
+    "bandwidth": null,
+    "cpu": 4
+  },
+  "c3.2xlarge": {
+    "id": "c3.2xlarge",
+    "name": "Compute Optimized Double Extra Large Instance",
+    "ram": 15360,
+    "disk":  2,
+    "disk_size": 80,
+    "bandwidth": null,
+    "cpu": 8
+  },
+  "c3.4xlarge": {
+    "id": "c3.4xlarge",
+    "name": "Compute Optimized Quadruple Extra Large Instance",
+    "ram": 30720,
+    "disk":  2,
+    "disk_size": 160,
+    "bandwidth": null,
+    "cpu": 16
+  },
+  "c3.8xlarge": {
+    "id": "c3.8xlarge",
+    "name": "Compute Optimized Eight Extra Large Instance",
+    "ram": 61440,
+    "disk":  2,
+    "disk_size": 320,
+    "bandwidth": null,
+    "cpu": 32
+  },
+  "c4.large": {
+    "id": "c4.large",
+    "name": "Compute Optimized Large Instance",
+    "ram": 3072,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 2
+  },
+  "c4.xlarge": {
+    "id": "c4.xlarge",
+    "name": "Compute Optimized Extra Large Instance",
+    "ram": 7168,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 4
+  },
+  "c4.2xlarge": {
+    "id": "c4.2xlarge",
+    "name": "Compute Optimized Double Large Instance",
+    "ram": 15360,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 8
+  },
+  "c4.4xlarge": {
+    "id": "c4.4xlarge",
+    "name": "Compute Optimized Quadruple Extra Large Instance",
+    "ram": 30720,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 16
+  },
+  "c4.8xlarge": {
+    "id": "c4.8xlarge",
+    "name": "Compute Optimized Eight Extra Large Instance",
+    "ram": 61440,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 32
+  },
+  "cr1.8xlarge": {
+    "id": "cr1.8xlarge",
+    "name": "High Memory Cluster Eight Extra Large",
+    "ram": 249856,
+    "disk":  2,
+    "disk_size": 120,
+    "bandwidth": null,
+    "cpu": 32
+  },
+  "hs1.4xlarge": {
+    "id": "hs1.4xlarge",
+    "name": "High Storage Quadruple Extra Large Instance",
+    "ram": 65536,
+    "disk":  2,
+    "disk_size": 1024,
+    "bandwidth": null,
+    "cpu": 16
+  },
+  "hs1.8xlarge": {
+    "id": "hs1.8xlarge",
+    "name": "High Storage Eight Extra Large Instance",
+    "ram": 119808,
+    "disk":  24,
+    "disk_size": 2000,
+    "bandwidth": null,
+    "cpu": 17
+  },
+
+  "i2.xlarge": {
+    "id": "i2.xlarge",
+    "name": "High I/O Storage Optimized Extra Large Instance",
+    "ram": 30720,
+    "disk": 800,
+    "bandwidth": null,
+    "cpu": 4
+  },
+  "i2.2xlarge": {
+    "id": "i2.2xlarge",
+    "name": "High I/O Storage Optimized Double Extra Large Instance",
+    "ram": 62464,
+    "disk":  2,
+    "disk_size": 800,
+    "bandwidth": null,
+    "cpu": 8
+  },
+  "i2.4xlarge": {
+    "id": "i2.4xlarge",
+    "name": "High I/O Storage Optimized Quadruple Large Instance",
+    "ram": 124928,
+    "disk":  4,
+    "disk_size": 800,
+    "bandwidth": null,
+    "cpu": 16
+  },
+  "i2.8xlarge": {
+    "id": "i2.8xlarge",
+    "name": "High I/O Storage Optimized Eight Extra Large Instance",
+    "ram": 249856,
+    "disk":  8,
+    "disk_size": 800,
+    "bandwidth": null,
+    "cpu": 32
+  },
+  "i3.large": {
+    "id": "i3.large",
+    "name": "High I/O Instances",
+    "ram": 15360,
+    "disk":  1,
+    "disk_size": 475,
+    "bandwidth": null,
+    "cpu": 2
+  },
+  "i3.xlarge": {
+    "id": "i3.xlarge",
+    "name": "High I/O Instances",
+    "ram": 30720,
+    "disk":  1,
+    "disk_size": 950,
+    "bandwidth": null,
+    "cpu": 4
+  },
+  "i3.2xlarge": {
+    "id": "i3.2xlarge",
+    "name": "High I/O Instances",
+    "ram": 62464,
+    "disk":  1,
+    "disk_size": 1900,
+    "bandwidth": null,
+    "cpu": 8
+  },
+  "i3.4xlarge": {
+    "id": "i3.4xlarge",
+    "name": "High I/O Instances",
+    "ram": 124928,
+    "disk":  2,
+    "disk_size": 1900,
+    "bandwidth": null,
+    "cpu": 16
+  },
+  "i3.8xlarge": {
+    "id": "i3.8xlarge",
+    "name": "High I/O Instances",
+    "ram": 249856,
+    "disk":  4,
+    "disk_size": 1900,
+    "bandwidth": null,
+    "cpu": 32
+  },
+  "i3.16xlarge": {
+    "id": "i3.16xlarge",
+    "name": "High I/O Instances",
+    "ram": 499712,
+    "disk":  8,
+    "disk_size": 1900,
+    "bandwidth": null,
+    "cpu": 64
+  },
+  "d2.xlarge": {
+    "id": "d2.xlarge",
+    "name": "Dense Storage Optimized Extra Large Instance",
+    "ram": 30720,
+    "disk":  3,
+    "disk_size": 2000,
+    "bandwidth": null,
+    "cpu": 4
+  },
+  "d2.2xlarge": {
+    "id": "d2.2xlarge",
+    "name": "Dense Storage Optimized Double Extra Large Instance",
+    "ram": 62464,
+    "disk":  6,
+    "disk_size": 2000,
+    "bandwidth": null,
+    "cpu": 8
+  },
+  "d2.4xlarge": {
+    "id": "d2.4xlarge",
+    "name": "Dense Storage Optimized Quadruple Extra Large Instance",
+    "ram": 124928,
+    "disk":  12,
+    "disk_size": 2000,
+    "bandwidth": null,
+    "cpu": 16
+  },
+  "d2.8xlarge": {
+    "id": "d2.8xlarge",
+    "name": "Dense Storage Optimized Eight Extra Large Instance",
+    "ram": 249856,
+    "disk":  24,
+    "disk_size": 2000,
+    "bandwidth": null,
+    "cpu": 36
+  },
+
+  "r3.large": {
+    "id": "r3.large",
+    "name": "Memory Optimized Large instance",
+    "ram": 15360,
+    "disk": 32,
+    "bandwidth": null,
+    "cpu": 2
+  },
+  "r3.xlarge": {
+    "id": "r3.xlarge",
+    "name": "Memory Optimized Extra Large instance",
+    "ram": 30720,
+    "disk": 80,
+    "bandwidth": null,
+    "cpu": 4
+  },
+  "r3.2xlarge": {
+    "id": "r3.2xlarge",
+    "name": "Memory Optimized Double Extra Large instance",
+    "ram": 62464,
+    "disk": 160,
+    "bandwidth": null,
+    "cpu": 8
+  },
+  "r3.4xlarge": {
+    "id": "r3.4xlarge",
+    "name": "Memory Optimized Quadruple Extra Large instance",
+    "ram": 124928,
+    "disk": 320,
+    "bandwidth": null,
+    "cpu": 16
+  },
+  "r3.8xlarge": {
+    "id": "r3.8xlarge",
+    "name": "Memory Optimized Eight Extra Large instance",
+    "ram": 249856,
+    "disk":  2,
+    "disk_size": 320,
+    "bandwidth": null,
+    "cpu": 32
+  },
+  "r4.large": {
+    "id": "r4.large",
+    "name": "Memory Optimized Large instance",
+    "ram": 15360,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 2
+  },
+  "r4.xlarge": {
+    "id": "r4.xlarge",
+    "name": "Memory Optimized Extra Large instance",
+    "ram": 30720,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 4
+  },
+  "r4.2xlarge": {
+    "id": "r4.2xlarge",
+    "name": "Memory Optimized Double Extra Large instance",
+    "ram": 62464,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 8
+  },
+  "r4.4xlarge": {
+    "id": "r4.4xlarge",
+    "name": "Memory Optimized Quadruple Extra Large instance",
+    "ram": 124928,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 16
+  },
+  "r4.8xlarge": {
+    "id": "r4.8xlarge",
+    "name": "Memory Optimized Eight Extra Large instance",
+    "ram": 249856,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 32
+  },
+  "r4.16xlarge": {
+    "id": "r4.16xlarge",
+    "name": "Memory Optimized Sixteen Extra Large instance",
+    "ram": 499712,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 64
+  },
+
+  "t2.nano": {
+    "id": "t2.nano",
+    "name": "Burstable Performance Nano Instance",
+    "ram": 512,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 1
+  },
+  "t2.micro": {
+    "id": "t2.micro",
+    "name": "Burstable Performance Micro Instance",
+    "ram": 1024,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 1
+  },
+  "t2.small": {
+    "id": "t2.small",
+    "name": "Burstable Performance Small Instance",
+    "ram": 2048,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 1
+  },
+  "t2.medium": {
+    "id": "t2.medium",
+    "name": "Burstable Performance Medium Instance",
+    "ram": 4096,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 2
+  },
+  "t2.large": {
+    "id": "t2.large",
+    "name": "Burstable Performance Medium Instance",
+    "ram": 8192,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 2
+  },
+  "t2.xlarge": {
+    "id": "t2.xlarge",
+    "name": "Burstable Performance Extra Large Instance",
+    "ram": 16384,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 4
+  },
+  "t2.2xlarge": {
+    "id": "t2.2xlarge",
+    "name": "Burstable Performance Double Extra Large Instance",
+    "ram": 32768,
+    "disk": 0,
+    "bandwidth": null,
+    "cpu": 8
+  },
+  "x1.32xlarge": {
+    "id": "x1.32xlarge",
+    "name": "Memory Optimized ThirtyTwo Extra Large instance",
+    "ram": 1998848,
+    "disk":  2,
+    "disk_size": 1920,
+    "bandwidth": null,
+    "cpu": 128
+  }
+}
