@@ -1,4 +1,4 @@
-EC2 instance types
+EC2 instance sizes
 ==================
 
 .. image:: https://api.travis-ci.org/ZuluPro/ec2-sizes.svg
