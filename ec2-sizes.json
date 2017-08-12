@@ -4,21 +4,27 @@
     "name": "Micro Instance",
     "ram": 0,
     "disk": 15,
-    "bandwidth": null
+    "bandwidth": null,
+    "cpu_number": 1,
+    "gpu_number": 0
   },
   "m1.small": {
     "id": "m1.small",
     "name": "Small Instance",
     "ram": 1024,
     "disk": 160,
-    "bandwidth": null
+    "bandwidth": null,
+    "cpu_number": 1,
+    "gpu_number": 0
   },
   "m1.medium": {
     "id": "m1.medium",
     "name": "Medium Instance",
     "ram": 3072,
     "disk": 410,
-    "bandwidth": null
+    "bandwidth": null,
+    "cpu_number": 1,
+    "gpu_number": 0
   },
   "m1.large": {
     "id": "m1.large",
@@ -27,7 +33,8 @@
     "disk":  2,
     "disk_size": 420,
     "bandwidth": null,
-    "cpu": 2
+    "cpu_number": 2,
+    "gpu_number": 0
   },
   "m1.xlarge": {
     "id": "m1.xlarge",
@@ -36,7 +43,8 @@
     "disk":  4,
     "disk_size": 420,
     "bandwidth": null,
-    "cpu": 4
+    "cpu_number": 4,
+    "gpu_number": 0
   },
   "c1.medium": {
     "id": "c1.medium",
@@ -44,7 +52,8 @@
     "ram": 1024,
     "disk": 350,
     "bandwidth": null,
-    "cpu": 2
+    "cpu_number": 2,
+    "gpu_number": 0
   },
   "c1.xlarge": {
     "id": "c1.xlarge",
@@ -53,7 +62,8 @@
     "disk":  4,
     "disk_size": 420,
     "bandwidth": null,
-    "cpu": 8
+    "cpu_number": 8,
+    "gpu_number": 0
   },
   "m2.xlarge": {
     "id": "m2.xlarge",
@@ -61,7 +71,8 @@
     "ram": 17408,
     "disk": 420,
     "bandwidth": null,
-    "cpu": 2
+    "cpu_number": 2,
+    "gpu_number": 0
   },
   "m2.2xlarge": {
     "id": "m2.2xlarge",
@@ -69,7 +80,8 @@
     "ram": 34816,
     "disk": 850,
     "bandwidth": null,
-    "cpu": 4
+    "cpu_number": 4,
+    "gpu_number": 0
   },
   "m2.4xlarge": {
     "id": "m2.4xlarge",
@@ -78,7 +90,8 @@
     "disk":  2,
     "disk_size": 840,
     "bandwidth": null,
-    "cpu": 8
+    "cpu_number": 8,
+    "gpu_number": 0
   },
   "m3.medium": {
     "id": "m3.medium",
@@ -86,7 +99,8 @@
     "ram": 3072,
     "disk": 4,
     "bandwidth": null,
-    "cpu": 1
+    "cpu_number": 1,
+    "gpu_number": 0
   },
   "m3.large": {
     "id": "m3.large",
@@ -94,7 +108,8 @@
     "ram": 7168,
     "disk": 32,
     "bandwidth": null,
-    "cpu": 2
+    "cpu_number": 2,
+    "gpu_number": 0
   },
   "m3.xlarge": {
     "id": "m3.xlarge",
@@ -103,7 +118,8 @@
     "disk":  2,
     "disk_size": 40,
     "bandwidth": null,
-    "cpu": 4
+    "cpu_number": 4,
+    "gpu_number": 0
   },
   "m3.2xlarge": {
     "id": "m3.2xlarge",
@@ -112,7 +128,8 @@
     "disk":  2,
     "disk_size": 80,
     "bandwidth": null,
-    "cpu": 8
+    "cpu_number": 8,
+    "gpu_number": 0
   },
   "m4.large": {
     "id": "m4.large",
@@ -120,7 +137,8 @@
     "ram": 8192,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 2
+    "cpu_number": 2,
+    "gpu_number": 0
   },
   "m4.xlarge": {
     "id": "m4.xlarge",
@@ -128,7 +146,8 @@
     "ram": 16384,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 4
+    "cpu_number": 4,
+    "gpu_number": 0
   },
   "m4.2xlarge": {
     "id": "m4.2xlarge",
@@ -136,7 +155,8 @@
     "ram": 32768,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 8
+    "cpu_number": 8,
+    "gpu_number": 0
   },
   "m4.4xlarge": {
     "id": "m4.4xlarge",
@@ -144,7 +164,8 @@
     "ram": 65536,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 16
+    "cpu_number": 16,
+    "gpu_number": 0
   },
   "m4.10xlarge": {
     "id": "m4.10xlarge",
@@ -152,7 +173,8 @@
     "ram": 163840,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 40
+    "cpu_number": 40,
+    "gpu_number": 0
   },
   "m4.16xlarge": {
     "id": "m4.16xlarge",
@@ -160,7 +182,8 @@
     "ram": 262144,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 64
+    "cpu_number": 64,
+    "gpu_number": 0
   },
   "cg1.4xlarge": {
     "id": "cg1.4xlarge",
@@ -169,7 +192,8 @@
     "disk":  2,
     "disk_size": 840,
     "bandwidth": null,
-    "cpu": 16
+    "cpu_number": 16,
+    "gpu_number": 0
   },
   "g2.2xlarge": {
     "id": "g2.2xlarge",
@@ -177,7 +201,8 @@
     "ram": 15360,
     "disk": 60,
     "bandwidth": null,
-    "cpu": 8
+    "cpu_number": 8,
+    "gpu_number": 0
   },
   "g2.8xlarge": {
     "id": "g2.8xlarge",
@@ -186,28 +211,35 @@
     "disk":  2,
     "disk_size": 120,
     "bandwidth": null,
-    "cpu": 32
+    "cpu_number": 32,
+    "gpu_number": 0
   },
   "p2.xlarge": {
     "id": "p2.xlarge",
     "name": "Cluster GPU P2 Large Instance",
     "ram": 62464,
     "disk": 4,
-    "bandwidth": null
+    "bandwidth": null,
+    "cpu_number": 4,
+    "gpu_number": 1
   },
   "p2.8xlarge": {
     "id": "p2.8xlarge",
     "name": "Cluster GPU P2 Large Instance",
     "ram": 499712,
     "disk": 32,
-    "bandwidth": null
+    "bandwidth": 10000,
+    "cpu_number": 32,
+    "gpu_number": 8
   },
   "p2.16xlarge": {
     "id": "p2.16xlarge",
     "name": "Cluster GPU P2 Large Instance",
     "ram": 749568,
     "disk": 64,
-    "bandwidth": null
+    "bandwidth": 20000,
+    "cpu_number": 64,
+    "gpu_number": 16
   },
   "cc1.4xlarge": {
     "id": "cc1.4xlarge",
@@ -223,7 +255,8 @@
     "disk":  4,
     "disk_size": 840,
     "bandwidth": null,
-    "cpu": 32
+    "cpu_number": 32,
+    "gpu_number": 0
   },
 
   "c3.large": {
@@ -233,7 +266,8 @@
     "disk":  2,
     "disk_size": 16,
     "bandwidth": null,
-    "cpu": 2
+    "cpu_number": 2,
+    "gpu_number": 0
   },
   "c3.xlarge": {
     "id": "c3.xlarge",
@@ -242,7 +276,8 @@
     "disk":  2,
     "disk_size": 40,
     "bandwidth": null,
-    "cpu": 4
+    "cpu_number": 4,
+    "gpu_number": 0
   },
   "c3.2xlarge": {
     "id": "c3.2xlarge",
@@ -251,7 +286,8 @@
     "disk":  2,
     "disk_size": 80,
     "bandwidth": null,
-    "cpu": 8
+    "cpu_number": 8,
+    "gpu_number": 0
   },
   "c3.4xlarge": {
     "id": "c3.4xlarge",
@@ -260,7 +296,8 @@
     "disk":  2,
     "disk_size": 160,
     "bandwidth": null,
-    "cpu": 16
+    "cpu_number": 16,
+    "gpu_number": 0
   },
   "c3.8xlarge": {
     "id": "c3.8xlarge",
@@ -269,7 +306,8 @@
     "disk":  2,
     "disk_size": 320,
     "bandwidth": null,
-    "cpu": 32
+    "cpu_number": 32,
+    "gpu_number": 0
   },
   "c4.large": {
     "id": "c4.large",
@@ -277,7 +315,8 @@
     "ram": 3072,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 2
+    "cpu_number": 2,
+    "gpu_number": 0
   },
   "c4.xlarge": {
     "id": "c4.xlarge",
@@ -285,7 +324,8 @@
     "ram": 7168,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 4
+    "cpu_number": 4,
+    "gpu_number": 0
   },
   "c4.2xlarge": {
     "id": "c4.2xlarge",
@@ -293,7 +333,8 @@
     "ram": 15360,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 8
+    "cpu_number": 8,
+    "gpu_number": 0
   },
   "c4.4xlarge": {
     "id": "c4.4xlarge",
@@ -301,7 +342,8 @@
     "ram": 30720,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 16
+    "cpu_number": 16,
+    "gpu_number": 0
   },
   "c4.8xlarge": {
     "id": "c4.8xlarge",
@@ -309,7 +351,8 @@
     "ram": 61440,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 32
+    "cpu_number": 32,
+    "gpu_number": 0
   },
   "cr1.8xlarge": {
     "id": "cr1.8xlarge",
@@ -318,7 +361,8 @@
     "disk":  2,
     "disk_size": 120,
     "bandwidth": null,
-    "cpu": 32
+    "cpu_number": 32,
+    "gpu_number": 0
   },
   "hs1.4xlarge": {
     "id": "hs1.4xlarge",
@@ -327,7 +371,8 @@
     "disk":  2,
     "disk_size": 1024,
     "bandwidth": null,
-    "cpu": 16
+    "cpu_number": 16,
+    "gpu_number": 0
   },
   "hs1.8xlarge": {
     "id": "hs1.8xlarge",
@@ -336,7 +381,8 @@
     "disk":  24,
     "disk_size": 2000,
     "bandwidth": null,
-    "cpu": 17
+    "cpu_number": 17,
+    "gpu_number": 0
   },
 
   "i2.xlarge": {
@@ -345,7 +391,8 @@
     "ram": 30720,
     "disk": 800,
     "bandwidth": null,
-    "cpu": 4
+    "cpu_number": 4,
+    "gpu_number": 0
   },
   "i2.2xlarge": {
     "id": "i2.2xlarge",
@@ -354,7 +401,8 @@
     "disk":  2,
     "disk_size": 800,
     "bandwidth": null,
-    "cpu": 8
+    "cpu_number": 8,
+    "gpu_number": 0
   },
   "i2.4xlarge": {
     "id": "i2.4xlarge",
@@ -363,7 +411,8 @@
     "disk":  4,
     "disk_size": 800,
     "bandwidth": null,
-    "cpu": 16
+    "cpu_number": 16,
+    "gpu_number": 0
   },
   "i2.8xlarge": {
     "id": "i2.8xlarge",
@@ -372,7 +421,8 @@
     "disk":  8,
     "disk_size": 800,
     "bandwidth": null,
-    "cpu": 32
+    "cpu_number": 32,
+    "gpu_number": 0
   },
   "i3.large": {
     "id": "i3.large",
@@ -381,7 +431,8 @@
     "disk":  1,
     "disk_size": 475,
     "bandwidth": null,
-    "cpu": 2
+    "cpu_number": 2,
+    "gpu_number": 0
   },
   "i3.xlarge": {
     "id": "i3.xlarge",
@@ -390,7 +441,8 @@
     "disk":  1,
     "disk_size": 950,
     "bandwidth": null,
-    "cpu": 4
+    "cpu_number": 4,
+    "gpu_number": 0
   },
   "i3.2xlarge": {
     "id": "i3.2xlarge",
@@ -399,7 +451,8 @@
     "disk":  1,
     "disk_size": 1900,
     "bandwidth": null,
-    "cpu": 8
+    "cpu_number": 8,
+    "gpu_number": 0
   },
   "i3.4xlarge": {
     "id": "i3.4xlarge",
@@ -408,7 +461,8 @@
     "disk":  2,
     "disk_size": 1900,
     "bandwidth": null,
-    "cpu": 16
+    "cpu_number": 16,
+    "gpu_number": 0
   },
   "i3.8xlarge": {
     "id": "i3.8xlarge",
@@ -417,7 +471,8 @@
     "disk":  4,
     "disk_size": 1900,
     "bandwidth": null,
-    "cpu": 32
+    "cpu_number": 32,
+    "gpu_number": 0
   },
   "i3.16xlarge": {
     "id": "i3.16xlarge",
@@ -426,7 +481,8 @@
     "disk":  8,
     "disk_size": 1900,
     "bandwidth": null,
-    "cpu": 64
+    "cpu_number": 64,
+    "gpu_number": 0
   },
   "d2.xlarge": {
     "id": "d2.xlarge",
@@ -435,7 +491,8 @@
     "disk":  3,
     "disk_size": 2000,
     "bandwidth": null,
-    "cpu": 4
+    "cpu_number": 4,
+    "gpu_number": 0
   },
   "d2.2xlarge": {
     "id": "d2.2xlarge",
@@ -444,7 +501,8 @@
     "disk":  6,
     "disk_size": 2000,
     "bandwidth": null,
-    "cpu": 8
+    "cpu_number": 8,
+    "gpu_number": 0
   },
   "d2.4xlarge": {
     "id": "d2.4xlarge",
@@ -453,7 +511,8 @@
     "disk":  12,
     "disk_size": 2000,
     "bandwidth": null,
-    "cpu": 16
+    "cpu_number": 16,
+    "gpu_number": 0
   },
   "d2.8xlarge": {
     "id": "d2.8xlarge",
@@ -462,7 +521,8 @@
     "disk":  24,
     "disk_size": 2000,
     "bandwidth": null,
-    "cpu": 36
+    "cpu_number": 36,
+    "gpu_number": 0
   },
 
   "r3.large": {
@@ -471,7 +531,8 @@
     "ram": 15360,
     "disk": 32,
     "bandwidth": null,
-    "cpu": 2
+    "cpu_number": 2,
+    "gpu_number": 0
   },
   "r3.xlarge": {
     "id": "r3.xlarge",
@@ -479,7 +540,8 @@
     "ram": 30720,
     "disk": 80,
     "bandwidth": null,
-    "cpu": 4
+    "cpu_number": 4,
+    "gpu_number": 0
   },
   "r3.2xlarge": {
     "id": "r3.2xlarge",
@@ -487,7 +549,8 @@
     "ram": 62464,
     "disk": 160,
     "bandwidth": null,
-    "cpu": 8
+    "cpu_number": 8,
+    "gpu_number": 0
   },
   "r3.4xlarge": {
     "id": "r3.4xlarge",
@@ -495,7 +558,8 @@
     "ram": 124928,
     "disk": 320,
     "bandwidth": null,
-    "cpu": 16
+    "cpu_number": 16,
+    "gpu_number": 0
   },
   "r3.8xlarge": {
     "id": "r3.8xlarge",
@@ -504,7 +568,8 @@
     "disk":  2,
     "disk_size": 320,
     "bandwidth": null,
-    "cpu": 32
+    "cpu_number": 32,
+    "gpu_number": 0
   },
   "r4.large": {
     "id": "r4.large",
@@ -512,7 +577,8 @@
     "ram": 15360,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 2
+    "cpu_number": 2,
+    "gpu_number": 0
   },
   "r4.xlarge": {
     "id": "r4.xlarge",
@@ -520,7 +586,8 @@
     "ram": 30720,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 4
+    "cpu_number": 4,
+    "gpu_number": 0
   },
   "r4.2xlarge": {
     "id": "r4.2xlarge",
@@ -528,7 +595,8 @@
     "ram": 62464,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 8
+    "cpu_number": 8,
+    "gpu_number": 0
   },
   "r4.4xlarge": {
     "id": "r4.4xlarge",
@@ -536,7 +604,8 @@
     "ram": 124928,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 16
+    "cpu_number": 16,
+    "gpu_number": 0
   },
   "r4.8xlarge": {
     "id": "r4.8xlarge",
@@ -544,7 +613,8 @@
     "ram": 249856,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 32
+    "cpu_number": 32,
+    "gpu_number": 0
   },
   "r4.16xlarge": {
     "id": "r4.16xlarge",
@@ -552,7 +622,8 @@
     "ram": 499712,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 64
+    "cpu_number": 64,
+    "gpu_number": 0
   },
 
   "t2.nano": {
@@ -561,7 +632,8 @@
     "ram": 512,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 1
+    "cpu_number": 1,
+    "gpu_number": 0
   },
   "t2.micro": {
     "id": "t2.micro",
@@ -569,7 +641,8 @@
     "ram": 1024,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 1
+    "cpu_number": 1,
+    "gpu_number": 0
   },
   "t2.small": {
     "id": "t2.small",
@@ -577,7 +650,8 @@
     "ram": 2048,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 1
+    "cpu_number": 1,
+    "gpu_number": 0
   },
   "t2.medium": {
     "id": "t2.medium",
@@ -585,7 +659,8 @@
     "ram": 4096,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 2
+    "cpu_number": 2,
+    "gpu_number": 0
   },
   "t2.large": {
     "id": "t2.large",
@@ -593,7 +668,8 @@
     "ram": 8192,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 2
+    "cpu_number": 2,
+    "gpu_number": 0
   },
   "t2.xlarge": {
     "id": "t2.xlarge",
@@ -601,7 +677,8 @@
     "ram": 16384,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 4
+    "cpu_number": 4,
+    "gpu_number": 0
   },
   "t2.2xlarge": {
     "id": "t2.2xlarge",
@@ -609,7 +686,8 @@
     "ram": 32768,
     "disk": 0,
     "bandwidth": null,
-    "cpu": 8
+    "cpu_number": 8,
+    "gpu_number": 0
   },
   "x1.32xlarge": {
     "id": "x1.32xlarge",
@@ -618,6 +696,7 @@
     "disk":  2,
     "disk_size": 1920,
     "bandwidth": null,
-    "cpu": 128
+    "cpu_number": 128,
+    "gpu_number": 0
   }
 }
