@@ -7,6 +7,7 @@
     "disk_number": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 1,
     "gpu_number": 0
@@ -19,6 +20,7 @@
     "disk_number": 1,
     "disk_type": "hdd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 1,
     "gpu_number": 0
@@ -31,6 +33,7 @@
     "disk_number": 1,
     "disk_type": "hdd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 1,
     "gpu_number": 0
@@ -43,6 +46,7 @@
     "disk_size": 420,
     "disk_type": "hdd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -55,6 +59,7 @@
     "disk_size": 420,
     "disk_type": "hdd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -67,6 +72,7 @@
     "disk_number": 1,
     "disk_type": "hdd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -79,6 +85,7 @@
     "disk_size": 420,
     "disk_type": "hdd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -91,6 +98,7 @@
     "disk_number": 1,
     "disk_type": "hdd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -103,6 +111,7 @@
     "disk_number": 1,
     "disk_type": "hdd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -115,6 +124,7 @@
     "disk_size": 840,
     "disk_type": "hdd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -127,6 +137,7 @@
     "disk_number": 1,
     "disk_type": "ssd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 1,
     "gpu_number": 0
@@ -139,6 +150,7 @@
     "disk_number": 1,
     "disk_type": "ssd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -151,6 +163,7 @@
     "disk_size": 40,
     "disk_type": "ssd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -163,6 +176,7 @@
     "disk_size": 80,
     "disk_type": "ssd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -175,6 +189,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -187,6 +202,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -199,6 +215,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -211,6 +228,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -223,6 +241,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 40,
     "gpu_number": 0
@@ -235,6 +254,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 64,
     "gpu_number": 0
@@ -247,6 +267,7 @@
     "disk_size": 840,
     "disk_type": "hdd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -259,6 +280,7 @@
     "disk_number": 1,
     "disk_type": "ssd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -271,6 +293,7 @@
     "disk_size": 120,
     "disk_type": "ssd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -283,6 +306,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 1
@@ -295,6 +319,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": 10000,
     "cpu_number": 32,
     "gpu_number": 8
@@ -307,6 +332,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": 20000,
     "cpu_number": 64,
     "gpu_number": 16
@@ -319,6 +345,7 @@
     "disk_number": 2,
     "disk_type": "hdd",
     "disk_need_warm_up": false,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -331,6 +358,7 @@
     "disk_size": 840,
     "disk_type": "hdd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 88,
     "gpu_number": 0
@@ -344,6 +372,7 @@
     "disk_size": 16,
     "disk_type": "ssd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -356,6 +385,7 @@
     "disk_size": 40,
     "disk_type": "ssd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -368,6 +398,7 @@
     "disk_size": 80,
     "disk_type": "ssd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -380,6 +411,7 @@
     "disk_size": 160,
     "disk_type": "ssd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -392,6 +424,7 @@
     "disk_size": 320,
     "disk_type": "ssd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -404,6 +437,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -416,6 +450,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -428,6 +463,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -440,6 +476,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -452,6 +489,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -464,6 +502,7 @@
     "disk_size": 120,
     "disk_type": "ssd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -476,6 +515,7 @@
     "disk_size": 1024,
     "disk_type": "hdd",
     "disk_need_warm_up": false,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -488,6 +528,7 @@
     "disk_size": 2000,
     "disk_type": "hdd",
     "disk_need_warm_up": true,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 17,
     "gpu_number": 0
@@ -501,6 +542,7 @@
     "disk_size": 1,
     "disk_type": "ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -513,6 +555,7 @@
     "disk_size": 800,
     "disk_type": "ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -525,6 +568,7 @@
     "disk_size": 800,
     "disk_type": "ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -537,6 +581,7 @@
     "disk_size": 800,
     "disk_type": "ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -549,6 +594,7 @@
     "disk_size": 475,
     "disk_type": "nvme-ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -561,6 +607,7 @@
     "disk_size": 950,
     "disk_type": "nvme-ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -573,6 +620,7 @@
     "disk_size": 1900,
     "disk_type": "nvme-ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -585,6 +633,7 @@
     "disk_size": 1900,
     "disk_type": "nvme-ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -597,6 +646,7 @@
     "disk_size": 1900,
     "disk_type": "nvme-ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -609,6 +659,7 @@
     "disk_size": 1900,
     "disk_type": "nvme-ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 64,
     "gpu_number": 0
@@ -621,6 +672,7 @@
     "disk_size": 2000,
     "disk_type": "hdd",
     "disk_need_warm_up": false,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -633,6 +685,7 @@
     "disk_size": 2000,
     "disk_type": "hdd",
     "disk_need_warm_up": false,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -645,6 +698,7 @@
     "disk_size": 2000,
     "disk_type": "hdd",
     "disk_need_warm_up": false,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -657,6 +711,7 @@
     "disk_size": 2000,
     "disk_type": "hdd",
     "disk_need_warm_up": false,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 36,
     "gpu_number": 0
@@ -670,6 +725,7 @@
     "disk_number": 1,
     "disk_type": "ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -682,6 +738,7 @@
     "disk_number": 1,
     "disk_type": "ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -694,6 +751,7 @@
     "disk_number": 1,
     "disk_type": "ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -706,6 +764,7 @@
     "disk_number": 1,
     "disk_type": "ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -718,6 +777,7 @@
     "disk_size": 320,
     "disk_type": "ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -730,6 +790,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -742,6 +803,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -754,6 +816,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -766,6 +829,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -778,6 +842,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -790,6 +855,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 64,
     "gpu_number": 0
@@ -803,6 +869,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 1,
     "gpu_number": 0
@@ -815,6 +882,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 1,
     "gpu_number": 0
@@ -827,6 +895,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 1,
     "gpu_number": 0
@@ -839,6 +908,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -851,6 +921,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -864,6 +935,7 @@
     "bandwidth": null,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "cpu_number": 4,
     "gpu_number": 0
   },
@@ -875,6 +947,7 @@
     "disk_size": 0,
     "disk_type": null,
     "disk_need_warm_up": null,
+    "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -887,6 +960,7 @@
     "disk_size": 1920,
     "disk_type": "ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 128,
     "gpu_number": 0
@@ -899,6 +973,7 @@
     "disk_size": 470,
     "disk_type": "nvme-ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -911,6 +986,7 @@
     "disk_size": 940,
     "disk_type": "nvme-ssd",
     "disk_need_warm_up": false,
+    "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 64,
     "gpu_number": 0
