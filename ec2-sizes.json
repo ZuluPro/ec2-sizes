@@ -2,9 +2,11 @@
   "t1.micro": {
     "id": "t1.micro",
     "name": "Micro Instance",
-    "ram": 0,
-    "disk_size": 15,
-    "disk_number": 1,
+    "ram": 613,
+    "disk_size": 0,
+    "disk_number": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 1,
     "gpu_number": 0
@@ -15,6 +17,8 @@
     "ram": 1024,
     "disk_size": 160,
     "disk_number": 1,
+    "disk_type": "hdd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 1,
     "gpu_number": 0
@@ -25,6 +29,8 @@
     "ram": 3072,
     "disk_size": 410,
     "disk_number": 1,
+    "disk_type": "hdd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 1,
     "gpu_number": 0
@@ -35,6 +41,8 @@
     "ram": 7168,
     "disk_number": 2,
     "disk_size": 420,
+    "disk_type": "hdd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -45,27 +53,32 @@
     "ram": 15360,
     "disk_number": 4,
     "disk_size": 420,
+    "disk_type": "hdd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
   },
   "c1.medium": {
-    "id": "c3.medium",
-    "name": "High-CPU Medium Instance",
+    "id": "c1.medium",
+    "name": "Compute Optimized Medium Instance",
     "ram": 1024,
     "disk_size": 350,
     "disk_number": 1,
     "disk_type": "hdd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
   },
   "c1.xlarge": {
     "id": "c1.xlarge",
-    "name": "High-CPU Extra Large Instance",
+    "name": "Compute Optimized Extra Large Instance",
     "ram": 7168,
     "disk_number": 4,
     "disk_size": 420,
+    "disk_type": "hdd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -76,6 +89,8 @@
     "ram": 17408,
     "disk_size": 420,
     "disk_number": 1,
+    "disk_type": "hdd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -86,6 +101,8 @@
     "ram": 34816,
     "disk_size": 850,
     "disk_number": 1,
+    "disk_type": "hdd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -96,6 +113,8 @@
     "ram": 69632,
     "disk_number": 2,
     "disk_size": 840,
+    "disk_type": "hdd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -106,6 +125,8 @@
     "ram": 3072,
     "disk_size": 4,
     "disk_number": 1,
+    "disk_type": "ssd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 1,
     "gpu_number": 0
@@ -116,6 +137,8 @@
     "ram": 7168,
     "disk_size": 32,
     "disk_number": 1,
+    "disk_type": "ssd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -126,6 +149,8 @@
     "ram": 15360,
     "disk_number": 2,
     "disk_size": 40,
+    "disk_type": "ssd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -136,6 +161,8 @@
     "ram": 30720,
     "disk_number": 2,
     "disk_size": 80,
+    "disk_type": "ssd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -146,6 +173,8 @@
     "ram": 8192,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -156,6 +185,8 @@
     "ram": 16384,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -166,6 +197,8 @@
     "ram": 32768,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -176,6 +209,8 @@
     "ram": 65536,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -186,6 +221,8 @@
     "ram": 163840,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 40,
     "gpu_number": 0
@@ -196,6 +233,8 @@
     "ram": 262144,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 64,
     "gpu_number": 0
@@ -206,6 +245,8 @@
     "ram": 22528,
     "disk_number": 2,
     "disk_size": 840,
+    "disk_type": "hdd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -216,6 +257,8 @@
     "ram": 15360,
     "disk_size": 60,
     "disk_number": 1,
+    "disk_type": "ssd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -226,6 +269,8 @@
     "ram": 61440,
     "disk_number": 2,
     "disk_size": 120,
+    "disk_type": "ssd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -236,6 +281,8 @@
     "ram": 62464,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 1
@@ -246,6 +293,8 @@
     "ram": 499712,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": 10000,
     "cpu_number": 32,
     "gpu_number": 8
@@ -256,6 +305,8 @@
     "ram": 749568,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": 20000,
     "cpu_number": 64,
     "gpu_number": 16
@@ -266,6 +317,8 @@
     "ram": 23552,
     "disk_size": 840,
     "disk_number": 2,
+    "disk_type": "hdd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -276,6 +329,8 @@
     "ram": 61440,
     "disk_number": 4,
     "disk_size": 840,
+    "disk_type": "hdd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 88,
     "gpu_number": 0
@@ -287,6 +342,8 @@
     "ram": 3072,
     "disk_number": 2,
     "disk_size": 16,
+    "disk_type": "ssd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -297,6 +354,8 @@
     "ram": 7168,
     "disk_number": 2,
     "disk_size": 40,
+    "disk_type": "ssd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -307,6 +366,8 @@
     "ram": 15360,
     "disk_number": 2,
     "disk_size": 80,
+    "disk_type": "ssd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -317,6 +378,8 @@
     "ram": 30720,
     "disk_number": 2,
     "disk_size": 160,
+    "disk_type": "ssd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -327,6 +390,8 @@
     "ram": 61440,
     "disk_number": 2,
     "disk_size": 320,
+    "disk_type": "ssd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -337,6 +402,8 @@
     "ram": 3072,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -347,6 +414,8 @@
     "ram": 7168,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -357,6 +426,8 @@
     "ram": 15360,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -367,6 +438,8 @@
     "ram": 30720,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -377,6 +450,8 @@
     "ram": 61440,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -387,6 +462,8 @@
     "ram": 249856,
     "disk_number": 2,
     "disk_size": 120,
+    "disk_type": "ssd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -397,6 +474,8 @@
     "ram": 65536,
     "disk_number": 2,
     "disk_size": 1024,
+    "disk_type": "hdd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -407,6 +486,8 @@
     "ram": 119808,
     "disk_number": 24,
     "disk_size": 2000,
+    "disk_type": "hdd",
+    "disk_need_warm_up": true,
     "bandwidth": null,
     "cpu_number": 17,
     "gpu_number": 0
@@ -418,6 +499,8 @@
     "ram": 30720,
     "disk_size": 800,
     "disk_size": 1,
+    "disk_type": "ssd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -428,6 +511,8 @@
     "ram": 62464,
     "disk_number": 2,
     "disk_size": 800,
+    "disk_type": "ssd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -438,6 +523,8 @@
     "ram": 124928,
     "disk_number": 4,
     "disk_size": 800,
+    "disk_type": "ssd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -448,6 +535,8 @@
     "ram": 249856,
     "disk_number": 8,
     "disk_size": 800,
+    "disk_type": "ssd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -458,6 +547,8 @@
     "ram": 15360,
     "disk_number": 1,
     "disk_size": 475,
+    "disk_type": "nvme-ssd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -468,6 +559,8 @@
     "ram": 30720,
     "disk_number": 1,
     "disk_size": 950,
+    "disk_type": "nvme-ssd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -478,6 +571,8 @@
     "ram": 62464,
     "disk_number": 1,
     "disk_size": 1900,
+    "disk_type": "nvme-ssd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -488,6 +583,8 @@
     "ram": 124928,
     "disk_number": 2,
     "disk_size": 1900,
+    "disk_type": "nvme-ssd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -498,6 +595,8 @@
     "ram": 249856,
     "disk_number": 4,
     "disk_size": 1900,
+    "disk_type": "nvme-ssd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -508,6 +607,8 @@
     "ram": 499712,
     "disk_number": 8,
     "disk_size": 1900,
+    "disk_type": "nvme-ssd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 64,
     "gpu_number": 0
@@ -518,6 +619,8 @@
     "ram": 30720,
     "disk_number": 3,
     "disk_size": 2000,
+    "disk_type": "hdd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -528,6 +631,8 @@
     "ram": 62464,
     "disk_number": 6,
     "disk_size": 2000,
+    "disk_type": "hdd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -538,6 +643,8 @@
     "ram": 124928,
     "disk_number": 12,
     "disk_size": 2000,
+    "disk_type": "hdd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -548,6 +655,8 @@
     "ram": 249856,
     "disk_number": 24,
     "disk_size": 2000,
+    "disk_type": "hdd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 36,
     "gpu_number": 0
@@ -559,6 +668,8 @@
     "ram": 15360,
     "disk_size": 32,
     "disk_number": 1,
+    "disk_type": "ssd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -569,6 +680,8 @@
     "ram": 30720,
     "disk_size": 80,
     "disk_number": 1,
+    "disk_type": "ssd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -579,6 +692,8 @@
     "ram": 62464,
     "disk_size": 160,
     "disk_number": 1,
+    "disk_type": "ssd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -589,6 +704,8 @@
     "ram": 124928,
     "disk_size": 320,
     "disk_number": 1,
+    "disk_type": "ssd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -599,6 +716,8 @@
     "ram": 249856,
     "disk_number": 2,
     "disk_size": 320,
+    "disk_type": "ssd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -609,6 +728,8 @@
     "ram": 15360,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -619,6 +740,8 @@
     "ram": 30720,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 4,
     "gpu_number": 0
@@ -629,6 +752,8 @@
     "ram": 62464,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
@@ -639,6 +764,8 @@
     "ram": 124928,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 16,
     "gpu_number": 0
@@ -649,6 +776,8 @@
     "ram": 249856,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 32,
     "gpu_number": 0
@@ -659,6 +788,8 @@
     "ram": 499712,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 64,
     "gpu_number": 0
@@ -670,6 +801,8 @@
     "ram": 512,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 1,
     "gpu_number": 0
@@ -680,6 +813,8 @@
     "ram": 1024,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 1,
     "gpu_number": 0
@@ -690,6 +825,8 @@
     "ram": 2048,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 1,
     "gpu_number": 0
@@ -700,6 +837,8 @@
     "ram": 4096,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -710,6 +849,8 @@
     "ram": 8192,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 2,
     "gpu_number": 0
@@ -721,6 +862,8 @@
     "disk_number": 0,
     "disk_size": 0,
     "bandwidth": null,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "cpu_number": 4,
     "gpu_number": 0
   },
@@ -730,18 +873,46 @@
     "ram": 32768,
     "disk_number": 0,
     "disk_size": 0,
+    "disk_type": null,
+    "disk_need_warm_up": null,
     "bandwidth": null,
     "cpu_number": 8,
     "gpu_number": 0
   },
   "x1.32xlarge": {
     "id": "x1.32xlarge",
-    "name": "Memory Optimized ThirtyTwo Extra Large instance",
+    "name": "Memory Optimized ThirtyTwo Extra Large Instance",
     "ram": 1998848,
     "disk_number": 2,
     "disk_size": 1920,
+    "disk_type": "ssd",
+    "disk_need_warm_up": false,
     "bandwidth": null,
     "cpu_number": 128,
+    "gpu_number": 0
+  },
+  "f1.2xlarge": {
+    "id": "f1.2xlarge",
+    "name": "FPGA Double Extra Large Instance",
+    "ram": 124928,
+    "disk_number": 1,
+    "disk_size": 470,
+    "disk_type": "nvme-ssd",
+    "disk_need_warm_up": false,
+    "bandwidth": null,
+    "cpu_number": 8,
+    "gpu_number": 0
+  },
+  "f1.16xlarge": {
+    "id": "f1.16xlarge",
+    "name": "FPGA 16 Extra Large Instance",
+    "ram": 999424,
+    "disk_number": 4,
+    "disk_size": 940,
+    "disk_type": "nvme-ssd",
+    "disk_need_warm_up": false,
+    "bandwidth": null,
+    "cpu_number": 64,
     "gpu_number": 0
   }
 }
