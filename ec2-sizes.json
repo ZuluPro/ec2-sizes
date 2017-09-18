@@ -11,7 +11,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 1,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "m1.small": {
     "id": "m1.small",
@@ -25,7 +27,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 1,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "m1.medium": {
     "id": "m1.medium",
@@ -39,7 +43,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 1,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "m1.large": {
     "id": "m1.large",
@@ -53,7 +59,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 2,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "m1.xlarge": {
     "id": "m1.xlarge",
@@ -67,7 +75,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 4,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "c1.medium": {
     "id": "c1.medium",
@@ -81,7 +91,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 2,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "c1.xlarge": {
     "id": "c1.xlarge",
@@ -95,7 +107,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 8,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "m2.xlarge": {
     "id": "m2.xlarge",
@@ -109,7 +123,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 2,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "m2.2xlarge": {
     "id": "m2.2xlarge",
@@ -123,7 +139,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 4,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "m2.4xlarge": {
     "id": "m2.4xlarge",
@@ -137,7 +155,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 8,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "m3.medium": {
     "id": "m3.medium",
@@ -151,7 +171,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 1,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "m3.large": {
     "id": "m3.large",
@@ -165,7 +187,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 2,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "m3.xlarge": {
     "id": "m3.xlarge",
@@ -179,7 +203,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 4,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "m3.2xlarge": {
     "id": "m3.2xlarge",
@@ -193,7 +219,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 8,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "m4.large": {
     "id": "m4.large",
@@ -207,7 +235,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 2,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "m4.xlarge": {
     "id": "m4.xlarge",
@@ -221,7 +251,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 4,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "m4.2xlarge": {
     "id": "m4.2xlarge",
@@ -235,7 +267,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 8,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "m4.4xlarge": {
     "id": "m4.4xlarge",
@@ -249,7 +283,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 16,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "m4.10xlarge": {
     "id": "m4.10xlarge",
@@ -263,7 +299,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 40,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "m4.16xlarge": {
     "id": "m4.16xlarge",
@@ -277,7 +315,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 64,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "cg1.4xlarge": {
     "id": "cg1.4xlarge",
@@ -291,7 +331,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 16,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "g2.2xlarge": {
     "id": "g2.2xlarge",
@@ -305,7 +347,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 8,
-    "gpu_number": 0
+    "gpu_number": 1,
+    "gpu_ram": 8,
+    "ebs_optimized": true
   },
   "g2.8xlarge": {
     "id": "g2.8xlarge",
@@ -319,7 +363,57 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 32,
-    "gpu_number": 0
+    "gpu_number": 4,
+    "gpu_ram": 32,
+    "ebs_optimized": false
+  },
+  "g3.4xlarge": {
+    "id": "g3.4xlarge",
+    "deprecated": false,
+    "name": "Cluster GPU G3 Four Extra Large Instance",
+    "ram": 124928,
+    "disk_size": 0,
+    "disk_number": 0,
+    "disk_type": null,
+    "disk_need_warm_up": false,
+    "disk_support_trim": false,
+    "bandwidth": null,
+    "cpu_number": 16,
+    "gpu_number": 1,
+    "gpu_ram": 8,
+    "ebs_optimized": true
+  },
+  "g3.8xlarge": {
+    "id": "g3.8xlarge",
+    "deprecated": false,
+    "name": "Cluster GPU G3 Eight Extra Large Instance",
+    "ram": 249856,
+    "disk_size": 0,
+    "disk_number": 0,
+    "disk_type": null,
+    "disk_need_warm_up": false,
+    "disk_support_trim": false,
+    "bandwidth": null,
+    "cpu_number": 32,
+    "gpu_number": 2,
+    "gpu_ram": 16,
+    "ebs_optimized": true
+  },
+  "g3.16xlarge": {
+    "id": "g3.16xlarge",
+    "deprecated": false,
+    "name": "Cluster GPU G3 Sixteen Extra Large Instance",
+    "ram": 499712,
+    "disk_size": 0,
+    "disk_number": 0,
+    "disk_type": null,
+    "disk_need_warm_up": false,
+    "disk_support_trim": false,
+    "bandwidth": null,
+    "cpu_number": 64,
+    "gpu_number": 4,
+    "gpu_ram": 32,
+    "ebs_optimized": true
   },
   "p2.xlarge": {
     "id": "p2.xlarge",
@@ -333,7 +427,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 4,
-    "gpu_number": 1
+    "gpu_number": 1,
+    "gpu_ram": 12,
+    "ebs_optimized": true
   },
   "p2.8xlarge": {
     "id": "p2.8xlarge",
@@ -347,7 +443,9 @@
     "disk_support_trim": null,
     "bandwidth": 10000,
     "cpu_number": 32,
-    "gpu_number": 8
+    "gpu_number": 8,
+    "gpu_ram": 32,
+    "ebs_optimized": true
   },
   "p2.16xlarge": {
     "id": "p2.16xlarge",
@@ -361,7 +459,9 @@
     "disk_support_trim": null,
     "bandwidth": 20000,
     "cpu_number": 64,
-    "gpu_number": 16
+    "gpu_number": 16,
+    "gpu_ram": 64,
+    "ebs_optimized": true
   },
   "cc1.4xlarge": {
     "id": "cc1.4xlarge",
@@ -375,7 +475,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 32,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "cc2.8xlarge": {
     "id": "cc2.8xlarge",
@@ -389,7 +491,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 88,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
 
   "c3.large": {
@@ -404,7 +508,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 2,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "c3.xlarge": {
     "id": "c3.xlarge",
@@ -418,7 +524,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 4,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "c3.2xlarge": {
     "id": "c3.2xlarge",
@@ -432,7 +540,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 8,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "c3.4xlarge": {
     "id": "c3.4xlarge",
@@ -446,7 +556,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 16,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "c3.8xlarge": {
     "id": "c3.8xlarge",
@@ -460,7 +572,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 32,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "c4.large": {
     "id": "c4.large",
@@ -474,7 +588,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 2,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "c4.xlarge": {
     "id": "c4.xlarge",
@@ -488,7 +604,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 4,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "c4.2xlarge": {
     "id": "c4.2xlarge",
@@ -502,7 +620,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 8,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "c4.4xlarge": {
     "id": "c4.4xlarge",
@@ -516,7 +636,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 16,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "c4.8xlarge": {
     "id": "c4.8xlarge",
@@ -530,7 +652,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 32,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "cr1.8xlarge": {
     "id": "cr1.8xlarge",
@@ -544,7 +668,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 32,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "hs1.4xlarge": {
     "id": "hs1.4xlarge",
@@ -558,7 +684,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 16,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "hs1.8xlarge": {
     "id": "hs1.8xlarge",
@@ -572,7 +700,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 17,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
 
   "i2.xlarge": {
@@ -587,7 +717,9 @@
     "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 4,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "i2.2xlarge": {
     "id": "i2.2xlarge",
@@ -601,7 +733,9 @@
     "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 8,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "i2.4xlarge": {
     "id": "i2.4xlarge",
@@ -615,7 +749,9 @@
     "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 16,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "i2.8xlarge": {
     "id": "i2.8xlarge",
@@ -629,7 +765,9 @@
     "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 32,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "i3.large": {
     "id": "i3.large",
@@ -643,7 +781,9 @@
     "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 2,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "i3.xlarge": {
     "id": "i3.xlarge",
@@ -657,7 +797,9 @@
     "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 4,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "i3.2xlarge": {
     "id": "i3.2xlarge",
@@ -671,7 +813,9 @@
     "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 8,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "i3.4xlarge": {
     "id": "i3.4xlarge",
@@ -685,7 +829,9 @@
     "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 16,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "i3.8xlarge": {
     "id": "i3.8xlarge",
@@ -699,7 +845,9 @@
     "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 32,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "i3.16xlarge": {
     "id": "i3.16xlarge",
@@ -713,7 +861,9 @@
     "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 64,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "d2.xlarge": {
     "id": "d2.xlarge",
@@ -727,7 +877,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 4,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "d2.2xlarge": {
     "id": "d2.2xlarge",
@@ -741,7 +893,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 8,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "d2.4xlarge": {
     "id": "d2.4xlarge",
@@ -755,7 +909,9 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 16,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "d2.8xlarge": {
     "id": "d2.8xlarge",
@@ -769,9 +925,10 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 36,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
-
   "r3.large": {
     "id": "r3.large",
     "deprecated": false,
@@ -784,7 +941,9 @@
     "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 2,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "r3.xlarge": {
     "id": "r3.xlarge",
@@ -798,7 +957,9 @@
     "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 4,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "r3.2xlarge": {
     "id": "r3.2xlarge",
@@ -812,7 +973,9 @@
     "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 8,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "r3.4xlarge": {
     "id": "r3.4xlarge",
@@ -826,7 +989,9 @@
     "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 16,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "r3.8xlarge": {
     "id": "r3.8xlarge",
@@ -840,7 +1005,9 @@
     "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 32,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "r4.large": {
     "id": "r4.large",
@@ -854,7 +1021,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 2,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "r4.xlarge": {
     "id": "r4.xlarge",
@@ -868,7 +1037,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 4,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "r4.2xlarge": {
     "id": "r4.2xlarge",
@@ -882,7 +1053,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 8,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "r4.4xlarge": {
     "id": "r4.4xlarge",
@@ -896,7 +1069,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 16,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "r4.8xlarge": {
     "id": "r4.8xlarge",
@@ -910,7 +1085,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 32,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "r4.16xlarge": {
     "id": "r4.16xlarge",
@@ -924,7 +1101,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 64,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
 
   "t2.nano": {
@@ -939,7 +1118,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 1,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "t2.micro": {
     "id": "t2.micro",
@@ -953,7 +1134,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 1,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "t2.small": {
     "id": "t2.small",
@@ -967,7 +1150,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 1,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "t2.medium": {
     "id": "t2.medium",
@@ -981,7 +1166,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 2,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "t2.large": {
     "id": "t2.large",
@@ -995,7 +1182,9 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 2,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "t2.xlarge": {
     "id": "t2.xlarge",
@@ -1009,7 +1198,9 @@
     "disk_need_warm_up": null,
     "disk_support_trim": null,
     "cpu_number": 4,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
   },
   "t2.2xlarge": {
     "id": "t2.2xlarge",
@@ -1023,7 +1214,25 @@
     "disk_support_trim": null,
     "bandwidth": null,
     "cpu_number": 8,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": false
+  },
+  "x1.16xlarge": {
+    "id": "x1.16xlarge",
+    "deprecated": false,
+    "name": "Memory Optimized Sixteen Extra Large Instance",
+    "ram": 999424,
+    "disk_number": 1,
+    "disk_size": 1920,
+    "disk_type": "ssd",
+    "disk_need_warm_up": false,
+    "disk_support_trim": false,
+    "bandwidth": null,
+    "cpu_number": 64,
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "x1.32xlarge": {
     "id": "x1.32xlarge",
@@ -1037,7 +1246,25 @@
     "disk_support_trim": false,
     "bandwidth": null,
     "cpu_number": 128,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
+  },
+  "x1e.32xlarge": {
+    "id": "x1.32xlarge",
+    "deprecated": false,
+    "name": "Memory Optimized ThirtyTwo E Extra Large Instance",
+    "ram": 3997696,
+    "disk_number": 2,
+    "disk_size": 1920,
+    "disk_type": "ssd",
+    "disk_need_warm_up": false,
+    "disk_support_trim": false,
+    "bandwidth": null,
+    "cpu_number": 128,
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "f1.2xlarge": {
     "id": "f1.2xlarge",
@@ -1051,7 +1278,9 @@
     "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 8,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   },
   "f1.16xlarge": {
     "id": "f1.16xlarge",
@@ -1065,6 +1294,8 @@
     "disk_support_trim": true,
     "bandwidth": null,
     "cpu_number": 64,
-    "gpu_number": 0
+    "gpu_number": 0,
+    "gpu_ram": 0,
+    "ebs_optimized": true
   }
 }
